@@ -150,12 +150,13 @@ linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(169, 134, 134, 0.2)),
 .fa-instagram{
   color: #ff00ff;
   -webkit-box-shadow: inset 0 0 0 1px #ff00ff, 0 10px 35px -10px #ff00ff;
-  box-shadow: inset 0 0 0 1px #ff00ff, 0 10px 35px -10px #ff00ff;
+   box-shadow: inset 0 0 0 1px #ff00ff, 0 10px 35px -10px #ff00ff;
 }
 
 .link-social{
   display: flex;
   justify-content: space-evenly;
+  margin-top: 25px;
 }
 
 .link-social a{
@@ -163,10 +164,10 @@ linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(169, 134, 134, 0.2)),
 }
 
 .sucursal{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+ 
+  margin:0 auto;
+  margin-top: 25px;
+  width: 90%;
   cursor: pointer;
   background-color: rgb(224,39,44);
   color: #333;
